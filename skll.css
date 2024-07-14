@@ -1,5 +1,8 @@
 nav{ display: flex; justify-content: space-between;}
 
-.parent1{ background-image: url(448655289_492786533428943_2746249675850043238_n.jpg); height: 576px;width: auto; background-size:cover ; text-align: center; background-repeat: no-repeat;}
-.goat{ background-image: url(istockphoto-637086268-1024x1024.jpg ); height:576px; width: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; background-repeat: no-repeat; background-size: cover; margin-top: 50px;}
-footer{ display:flex; background-color: aqua; color: black;}
+.parent1{ background-image: url(448655289_492786533428943_2746249675850043238_n.jpg); width: auto; background-size:cover ; text-align: center; background-repeat: no-repeat; height: 1140px;}
+.goat{ background-image: url(istockphoto-637086268-1024x1024.jpg );height: 1140px; width: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; background-repeat: no-repeat; background-size: cover; margin-top: 50px;}
+@media screen and (max-width:576px) {
+  .goat, .parent1{ background-size: cover; height: 576px; width: auto;}
+    
+}
