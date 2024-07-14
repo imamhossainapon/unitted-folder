@@ -1,9 +1,10 @@
 nav{ display: flex; justify-content: space-between;}
 
-.parent1{ background-image: url(448655289_492786533428943_2746249675850043238_n.jpg); width: auto; background-size:cover ; text-align: center; background-repeat: no-repeat; height: 3000px; width:2500px;}
-.goat{ background-image: url(istockphoto-637086268-1024x1024.jpg );height: 1140px; width: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; background-repeat: no-repeat; background-size: cover; margin-top: 50px;}
-@media screen and (max-width:577px) {
-  .goat, .parent1{  background-size:c; height: 576px; width:auto;  display: flex; justify-content: center; align-items: center; flex-direction: column;}
-  footer{display: flex;   justify-content: center;  background-color: blues;}
-    
+
+.parent1{ background-image: url(448655289_492786533428943_2746249675850043238_n.jpg);  background-size:contain ; text-align: center; background-repeat: no-repeat; height: 1140px ;width:2500px; display: flex;justify-content: center; align-items: center;}
+.goat{ background-image: url(istockphoto-637086268-1024x1024.jpg );height: 1140px; width: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; background-repeat: no-repeat; background-size: cover; }
+@media screen and (max-width:576px) {
+  .goat, .parent1{  background-size:cover; height:576px; width:576px; display: block;text-align: center; margin: 0px auto;}
+  footer{display: flex;   justify-content: center;  background-color: blues; margin: 0px auto;}
+.goat{display: flex; flex-direction: column;justify-content: center; align-items: center;} 
 }
